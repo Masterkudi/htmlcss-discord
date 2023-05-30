@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../img/jumbo.png);
+    padding-top: 1.5rem;
+    padding-bottom: 4px;
+}
+
+header nav {
+    margin-bottom: 1rem;
+}
+
+header nav .menu {
+    display: flex;
+}
+
+.menu {
+    line-height: 25px;
+    margin: auto;
+    width: 60%;
+    height: 50px;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.logo,
+.links,
+.discord {
+  padding: 0.5rem;
+}
+
+.logo,
+.discord {
+  min-width: 200px;
+  padding: 0.5rem;
+}
+
+.links {
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.links a {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.discord button {
+    border: none;
+    text-decoration: none;
+    background-color: #ffffff;
+    width: 120px;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.hero-section {
+    padding: 50px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 626px;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 4em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container p {
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.white-button {
+    border: none;
+    text-decoration: none;
+    background-color: #ffffff;
+    width: 250px;
+    font-size: 13px;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.black-button {
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    background-color: #000000;
+    width: 250px;
+    font-size: 13px;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+
+/* MAIN SECTION */
+
+.section1 {
+    padding: 50px;
+    background-position: 0%;
+}
+
+.sub-section1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 642px;
+}
+
+.section2 {
+    padding: 50px;
+    background-color: #F6F6F6;
+}
+
+.sub-section2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 642px;
+}
+
+.section3 {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.sub-section3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 642px;
+}
+
+.text-section {
+    padding: 4rem 2rem 1rem 2rem ;
+    width: 25%;
+}
+
+.text-section h2 {
+    font-size: 3.5em;
+    line-height: 1.3em;
+}
+
+.text-section p {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.image-section {
+    display: flex;
+    width: 45%;
+}
+
+.image-section img {
+    padding: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.section4 {
+    padding: 50px;
+    background-color: #F6F6F6;
+}
+
+.sub-section4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.green-section {
+    width: 60%;
+    background-color: #218B22;
+    border: 2px dashed black;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #24272B;
+    border-bottom: 2px solid #C6C6C7;
+}
+
+.sub-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 642px;
+}
+
+.section01 {
+    width: 20%;
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.section02,
+.section03,
+.section04,
+.section05 {
+    width: 10%;
+    background-color: #21B2AA;
+    border: 2px dashed #ffffff;
+}
+
+.footer2 {
+    width: 100%;
+    height: 150px;
+    background-color: #24272B;
+    padding-top: 20px;
+}
+
+.sub-footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    background-color: #80FCD4;
+    width: 60%;
+    height: 100px;
+    border: 2px dashed black;
+}
+
+.sub-footer2 button {
+    font-size: 30px;
+    font-weight: lighter;
+    border-radius: 5px;
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
